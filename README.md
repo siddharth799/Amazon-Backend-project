@@ -18,10 +18,6 @@ This is Backend Project of Amazon Website. (Login and Register System )
 - npm install express
 - npm install bcrypt
 - npm body-parser
-## Demo
-
-Insert gif or link to demo
-
 
 ## Screenshots
  ### login page
