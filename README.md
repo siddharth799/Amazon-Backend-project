@@ -14,11 +14,17 @@ This is Backend Project of Amazon Website. (Login and Register System )
 - POSTGRES DATABASE
 
 ## NPM
+-npm install
 - npm init
 - npm install pg (postgres database)
 - npm install express
 - npm install bcrypt
 - npm body-parser
+## DO THIS
+
+  password: "123xyz",    //<== enter your  database password here 
+  and do ==> npm i  and npm init -y   in your project folder 
+
 
 ## Screenshots
  ### login page
