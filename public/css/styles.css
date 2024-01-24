@@ -1,0 +1,255 @@
+/* register page css */
+.signup-logo{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  width: 103px;
+}
+.amazon-create-account {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.amazon-create-account form {
+  display: flex;
+  flex-direction: column;
+}
+
+.amazon-create-account label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.amazon-create-account input[type="text"],
+.amazon-create-account input[type="password"] {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.amazon-create-account .password-note {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #888;
+}
+
+.amazon-create-account button[type="submit"] {
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ecbb41;
+  color: #fff;
+  cursor: pointer;
+}
+
+.amazon-create-account .conditions {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #888;
+}
+
+.amazon-create-account .conditions a {
+  color: #444;
+  text-decoration: none;
+}
+
+.amazon-create-account .already-have-an-account,
+.amazon-create-account .buying-for-work {
+  font-size: 12px;
+  color: #444;
+  text-align: center;
+}
+
+.amazon-create-account .already-have-an-account a,
+.amazon-create-account .buying-for-work a {
+  color: #444;
+  text-decoration: none;
+}
+/* register page css end */
+
+/* signup css */
+.signup-logo{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  width: 103px;
+}
+.form-border{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #cdcdcd;
+  width: 350px;
+  height: fit-content;
+  border-radius: 6px;
+}
+.sign-info{
+  padding: 18px;
+}
+.sign-in{
+  padding-bottom: 10px;
+  font-size: 28px;
+  font-weight: 200;
+}
+.link-sign:hover{
+  color: white;
+  text-decoration: none;
+}
+.email-mob{
+  font-size: 13px;
+  font-weight: bold;
+}
+.E-box{
+  margin-top: 3px;
+  width: 290px;
+  height: 28px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+}
+.E-box:hover{
+  outline: 3px solid skyblue;
+  background-color: rgb(213, 232, 238);
+}
+.btn{
+  width: 295px;
+  height: 29px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(255, 231, 13);
+  margin-top: 19px;
+
+}
+.btn:hover{
+  background-color: rgb(255, 208, 0);
+}
+.link-sign{
+  text-decoration: none;
+  color: #FFFFFF;
+  
+}
+.term-condition{
+  margin-top: 19px;
+  font-size: 13px;
+}
+a{
+  text-decoration: none;
+  color: rgb(17, 145, 225);
+}
+a:hover{
+  text-decoration: underline;
+  color: darkgoldenrod;
+}
+.btn-coll{
+  margin-top: 28px;
+  position: absolute;
+  float: right;
+  margin-left: 20px;
+  display: flex;
+}
+.help{
+  margin-left: 5px;
+  font-size: 13px;
+}
+.collapsible{
+  margin-top: 28px;
+  width: 10px;
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.fa-sharp{
+  color: #6a6a6a;
+}
+.forget{
+  font-size: 13px;
+  margin-left: 25px;
+}
+
+.content {
+  display: none;
+}
+.new-to{
+  height: .5px;
+  border: none;
+  position: absolute;
+  align-items: center;
+  margin-right: auto;
+  width: 120px;
+  margin-top: 30px;
+}
+.new-user{
+  font-size: 13px;
+  position: absolute;
+  margin-left: 125px;
+  margin-top: 23px;
+  
+}
+.new-to-second{
+  height: .5px;
+  border: none;
+  position: absolute;
+  align-items: center;
+  margin-left: 227px;
+  margin-right: auto;
+  width: 120px;
+  margin-top: 30px;
+}
+.p-color{
+  color: grey;
+}
+.account-create{
+  margin-top: 60px;
+  align-items: center;
+}
+.acc-btn{
+  background-color: transparent;
+  border-radius: 5px;
+  border: .1px solid lightgray;
+  height: 33px;
+  width: 350px;
+}
+.acc-btn:hover{
+  background-color: rgb(242, 241, 241)
+}
+.big-div{
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+.t-c{
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  text-align: center;
+  font-size: 13px;
+}
+.t-c a{
+  padding: 20px;
+}
+.last{
+  color: rgb(77, 75, 75);
+  text-align: center;
+  font-size: 13px;
+}
+.tc-big{
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  text-align: center;
+  font-size: 13px;
+}
+/* signup end css */

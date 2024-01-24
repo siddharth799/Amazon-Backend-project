@@ -1,0 +1,73 @@
+<%- include('partials/header') %>
+
+<img class="signup-logo" src="css/Amazon_logo.svg" alt="logo">
+    <div class="big-div">
+    <div class="form-border">
+        <div class="sign-info">
+            <h1 class="sign-in" >Sign in</h1>
+            <form action="/" method="POST">
+                <label class="email-mob" for="email">Email</label>
+                <input name="useremail" class="E-box" type="email" maxlength="128" required>
+                 
+                <label class="email-mob" for="password">Password</label> <br>
+                <input name="userpassword" class="E-box" type="password" style="width: 290px;" id="password" minlength="6" required>
+                <p class="password-note email-mob">Passwords must be at least 6 characters.</p>
+            
+            <button type="submit" class="btn email-mob">Continue</button>
+            </form>
+            <div class="term-condition">
+                <p>By continuing, you agree to Amazon's <a href=""> Conditions of Use</a> and <a href="">Privacy Notice.</a></p>
+             </div>
+            
+
+             <!-- ....................................... -->
+             <div class="btn-coll">
+                <a class="help" href="">Need help?</a>
+            </div> 
+            <button type="button" class="collapsible"><i class="fa-sharp fa-solid fa-caret-down fa-rotate-270"></i></button>
+            <div class="content">
+                <a class="forget" href="">Forgot your password?</a><br>
+                <a class="forget" href="">Other issues with Sign-In</a>
+            </div>   
+        </div>
+        <div class="new-to-amazon">
+        <hr class="new-to" color="lightgrey" >
+        <div class="new-user">
+            <p class="p-color">New to Amazon?</p>
+        </div>
+        <hr class="new-to-second" color="lightgray">
+        </div>
+        
+    </div>
+    <div class="account-create">
+        <a href="/register"><button class="acc-btn">Create your Amazon account</button></a>
+    </div>
+</div>
+<div class="tc-big">
+<div class="t-c">
+    <a href="" class="t">Conditions of Use </a>
+    <a href="" class="t"> Privacy Notice </a>
+    <a href="" class="t"> Help </a>
+</div>
+</div>
+    <div class="last">
+    <p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+    </div>
+
+    <script>var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+       coll[i].addEventListener("click", function() {
+       this.classList.toggle("active");
+       var content = this.nextElementSibling;
+       if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+         }
+       });
+      }
+      </script>
+
+<%- include('partials/footer') %>

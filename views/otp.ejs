@@ -1,0 +1,11 @@
+<%- include('partials/header') %>
+
+<form action="/otp" method="POST"> 
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Enter OTP</label>
+      <input name="userotp" type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+  <%- include('partials/footer') %>
