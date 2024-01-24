@@ -14,6 +14,7 @@ This is Backend Project of Amazon Website. (Login and Register System )
 - POSTGRES DATABASE
 
 ## NPM
+- npm init
 - npm install pg (postgres database)
 - npm install express
 - npm install bcrypt
@@ -30,6 +31,8 @@ This is Backend Project of Amazon Website. (Login and Register System )
 ![Screenshot (1231)](https://github.com/siddharth799/Amazon-Backend-project/assets/115414262/01161c3d-6a4c-49de-9f34-a13bd70b7c1c)
 ### registration fail
 ![Screenshot (1235)](https://github.com/siddharth799/Amazon-Backend-project/assets/115414262/93e6043a-4caf-4f0b-99a6-da479ea5d4dd)
+### Error ID or Password
+![Screenshot (1238)](https://github.com/siddharth799/Amazon-Backend-project/assets/115414262/a22421bd-deb5-4f73-a85f-f906f485417f)
 
 
 
